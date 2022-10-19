@@ -1,8 +1,14 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - print value of n
+ *
+ * Return - 0 (end)
+ */
 int main(void)
 {
 	int n;
