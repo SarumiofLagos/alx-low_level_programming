@@ -23,5 +23,5 @@ int main(void)
 		putchar(Big_A);
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
