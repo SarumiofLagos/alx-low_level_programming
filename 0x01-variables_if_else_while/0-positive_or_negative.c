@@ -7,7 +7,7 @@
 /**
  * main - print value of n
  *
- * Return - 0 (end)
+ * Return: 0 (end)
  */
 int main(void)
 {
