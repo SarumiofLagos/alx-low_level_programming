@@ -9,18 +9,18 @@
 
 int main(void)
 {
-	char small-a = 'a';
-	char small-z = 'z';
-	char Big-A = 'A';
-	char Big-Z = 'Z';
+	char small_a = 'a';
+	char small_z = 'z';
+	char Big_A = 'A';
+	char Big_Z = 'Z';
 
-	for (; small-a <= small-z; small-a++)
+	for (; small_a <= small_z; small_a++)
 	{
-		putchar(small-a);
+		putchar(small_a);
 	}
-	for (; Big-A <= Big-Z; Big-A++)
+	for (; Big_A <= Big_Z; Big_A++)
 	{
-		putchar(Big-A);
+		putchar(Big_A);
 	}
 	putchar('\n');
 	return (0)
