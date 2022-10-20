@@ -4,7 +4,7 @@
 /*
  * main - print numbers of base 16
  *
- * Return: 0 (end)
+ * Return: 0
  */
 
 int main(void)
