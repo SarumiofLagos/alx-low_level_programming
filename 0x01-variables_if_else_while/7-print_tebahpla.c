@@ -4,7 +4,7 @@
 /**
  * main - print reverse small letters
  *
- * Return - 0
+ * Return: 0 (end)
  */
 
 int main(void)
