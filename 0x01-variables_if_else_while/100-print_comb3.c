@@ -13,14 +13,14 @@ int main(void)
 	int a = '3';
 	int x = '5';
 
-	while (a = '3', a <=,'8')
+	while (a = '3', a <= '8')
 	{
 		while (x = '5', x <= '9')
 		{
 			while (a != x)
 			{
 				putchar(a);
-				putchar(b);
+				putchar(x);
 				if (a <= '8')
 				{
 					putchar(',');
