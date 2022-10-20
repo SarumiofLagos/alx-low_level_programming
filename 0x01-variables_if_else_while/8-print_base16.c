@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - print numbers of base hexa
+/**
+ * main - print hexadecimal
  *
- * Return: 0
+ * Return: 0 (end)
  */
 
 int main(void)
