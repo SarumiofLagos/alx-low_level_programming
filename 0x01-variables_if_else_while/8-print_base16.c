@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- * main - print numbers of base 16
+ * main - print numbers of base hexa
  *
  * Return: 0
  */
