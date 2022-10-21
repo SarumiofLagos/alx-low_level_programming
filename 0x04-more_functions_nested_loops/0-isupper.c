@@ -1,21 +1,29 @@
-#ifndef main_h
-
-#define main_h	
+#include "main.h"
 
 
 
-#include <stdio.h>
+/**
+ *
+ *  * _isupper - a function that checks for uppercase character
+ *
+ *   * @c: input
+ *
+ *    *
+ *
+ *     * Return: 1 if c is uppercase, 0 otherwise
+ *
+ *      */
 
+int _isupper(int c)
 
+{
 
-void positive_or_negative(int i);
+		if ((c >= 'A') && (c <= 'Z'))
 
-int largest_number(int a, int b, int c);
+					return (1);
 
-void print_remaining_days(int month, int day, int year);
+			else
 
-int convert_day(int month, int day);
+						return (0);
 
-
-
-#endif /* main_h */
+}
