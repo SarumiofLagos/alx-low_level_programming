@@ -4,7 +4,7 @@
 /**
  * main - print lower case
  *
- * Return: 0 (end)
+ * Return: 0
  */
 
 void print_alphabet(void)
