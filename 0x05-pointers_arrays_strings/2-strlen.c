@@ -7,15 +7,15 @@
  * Return: 0 (end)
  */
 
-int _strlen(char *s)
+int _strlen(char *str)
 
 {
 
-	*str len =0;
+	size_t len = 0;
 
 	while (*str++)
 		len++;
 
-	return (0);
+	return (len);
 
 }
