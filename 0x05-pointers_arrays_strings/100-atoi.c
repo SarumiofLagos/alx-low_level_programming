@@ -1,17 +1,29 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the value of int a and int b
- * @a: first int to swap
- * @b: second int to swap
+ * _atoi - conerts a string to an integer
+ * @s: The string to be converted
  *
- * Return: void
+ * Return: The interger value of the converted string.
  */
-void swap_int(int *a, int *b)
+int _atoi(char *s)
 {
-	int c;
+	int sign =1;
+	unsigned int num = 0;
 
-	c = *a;
-	*a = *b;
-	*b = c;
+	do {
+		if (*s == '-')
+			sign *= -1;
+
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+
+		else if (num > 0)
+			break;
+
+	}
+
+	while (*s++);
+
+	return (num * sign);
 }
