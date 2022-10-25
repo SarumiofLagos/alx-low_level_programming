@@ -3,7 +3,8 @@
 
 /**
  * swap_int - the function that swaps the values of 2 integers
- * @n: input
+ * @a: first hint to swap
+ * @b: next int to swap
  * Return: 0 (end)
  */
 
